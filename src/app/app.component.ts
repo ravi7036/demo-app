@@ -12,6 +12,10 @@ HC_heatmap(Highcharts)
 })
 export class AppComponent {
 Highcharts: typeof Highcharts = Highcharts;
+
+ngOnInit(){
+  
+}
   
   chartOptions: Highcharts.Options = {
     chart: {
